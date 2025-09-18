@@ -8,7 +8,8 @@ This project analyzes **Ola ride booking data** using SQL. It includes **table c
 
 * **`create_table.sql`** → Creates the `bookings` table
 * **`bookings.csv`** → Sample dataset for the table
-* **`views.sql`** → Contains all SQL views for analysis
+* **views.sql`** → Contains all SQL views for 
+* **PowerBI_Report/** → Contains the Power BI report file (OlaRideInsights.pbix)
 
 ---
 
@@ -66,6 +67,30 @@ This project analyzes **Ola ride booking data** using SQL. It includes **table c
 | `total_successful_ride_value`                 | Total value of successful rides                |
 | `incomplete_rides_reason`                     | Incomplete rides along with reasons            |
 
+
+📊 Power BI Report
+
+The project also includes a Power BI report for visual analysis of Ola ride bookings.
+
+Folder: PowerBI_Report/
+
+File: OlaRideInsights.pbix
+
+You can open the .pbix file in Power BI Desktop to explore:
+
+Successful rides
+
+Average ride distances
+
+Cancellations
+
+Top customers
+
+Payment methods
+
+Ratings analysis
+
+Note: Make sure to load the bookings.csv dataset into Power BI to match the data used in SQL views. You can also connect Power BI directly to a SQL database for live queries.
 ---
 
 ## 🤝 Contributing
