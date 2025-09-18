@@ -1,0 +1,23 @@
+use this query to create a table 
+CREATE TABLE bookings(
+    date TIMESTAMP,
+    time TIME,
+    booking_id VARCHAR(20) PRIMARY KEY,
+    booking_status VARCHAR(50),
+    customer_id VARCHAR(20),
+    vehicle_type VARCHAR(30),
+    pickup_location VARCHAR(100),
+    drop_location VARCHAR(100),
+    v_tat INT,
+    c_tat INT,
+    canceled_rides_by_customer TEXT,
+    canceled_rides_by_driver TEXT,
+    incomplete_rides VARCHAR(10),
+    incomplete_rides_reason TEXT,
+    booking_value NUMERIC(10,2),
+    payment_method VARCHAR(30),
+    ride_distance INT,
+    driver_ratings NUMERIC(3,1),
+    customer_rating NUMERIC(3,1),
+    vehicle_images TEXT
+);
